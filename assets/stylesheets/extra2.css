@@ -1,0 +1,164 @@
+img[src*="#login"] {
+    width:200px;
+    height:300px;
+}
+
+img[src*="#tabCategory"] {
+    width:150px;
+    height:300px;
+}
+
+img[src*="#addElement"] {
+    width:275px;
+    height:270px;
+}
+
+img[src*="#addCategory"] {
+    width:220px;
+    height:120px;
+}
+
+img[src*="#editCategory"] {
+    width:220px;
+    height:120px;
+}
+
+img[src*="#tabElement"] {
+    width:270px;
+    height:100px;
+}
+
+img[src*="#changeCategory"] {
+    width:250px;
+    height:150px;
+}
+
+img[src*="#tabClient"] {
+    width:150px;
+    height:150px;
+}
+
+img[src*="#internalClient"] {
+    width:150px;
+    height:250px;
+}
+
+img[src*="#externalClient"] {
+    width:160px;
+    height:220px;
+}
+
+img[src*="#reservationForm"] {
+    width:200px;
+    height:450px;
+}
+
+img[src*="#paxForm"] {
+    width:180px;
+    height:200px;
+}
+
+img[src*="#guestProfile"] {
+    width:210px;
+    height:170px;
+}
+
+img[src*="#actionButtons"] {
+    width:210px;
+    height:170px;
+}
+
+img[src*="#emptyTable"] {
+    width:215px;
+    height:205px;
+}
+
+img[src*="#busyTable"] {
+    width:190px;
+    height:200px;
+}
+
+img[src*="#modifyCourse"] {
+    width:190px;
+    height:400px;
+}
+
+img[src*="#dishManager"] {
+    width:190px;
+    height:300px;
+}
+
+img[src*="#guestinfo"] {
+    width:220px;
+    height:450px;
+}
+
+img[src*="#assignChair"] {
+    width:350px;
+    height:300px;
+}
+
+img[src*="#externalForm"] {
+    width:140px;
+    height:340px;
+}
+
+img[src*="#menuList"] {
+    width:140px;
+    height:340px;
+}
+
+img[src*="#menuItem"] {
+    width:240px;
+    height:280px;
+}
+
+img[src*="#list"] {
+    width:280px;
+    height:350px;
+}
+
+img[src*="#billSummary"] {
+    width:230px;
+    height:200px;
+}
+
+img[src*="#paymentList"] {
+    width:140px;
+    height:350px;
+}
+
+img[src*="#splitList"] {
+    width:120px;
+    height:350px;
+}
+
+img[src*="#%Discount"] {
+    width:350px;
+    height:220px;
+}
+
+img[src*="#euroDiscount"] {
+    width:350px;
+    height:180px;
+}
+
+img[src*="#details"] {
+    width:400px;
+    height: 360px;
+}
+
+img[src*="#newDriver"] {
+    width:310px;
+    height: 300px;
+}
+
+img[src*="#takeAwayDetails"] {
+    width:410px;
+    height: 350px;
+}
+
+img[src*="#newPm"] {
+    width:450px;
+    height: 300px;
+}
