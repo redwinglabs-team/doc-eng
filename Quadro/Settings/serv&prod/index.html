@@ -1094,15 +1094,21 @@
 <li>Description: Enter a short description of the service</li>
 <li>Ordering: Enter the position you want the selected service to occupy within your list of services</li>
 <li>Tax Rate: Select the tax rate you want to apply to the price of the service</li>
-<li>Options:</li>
-<li>Invoice as package: Select this if you want the products attached to this service to be merged into a single account line (otherwise each product would have a different account line)</li>
-<li>Extended item invoice: Select it if you want the products to be displayed on multiple separate lines in an account</li>
-<li>Tax Override: Select this if you want employees with account access privileges to have the ability to override the standard tax applied to a product</li>
-<li>Has overridable tax : Select it if you want employees with account access privileges to be able to override the standard price applied to a product</li>
-<li>New order auto processed: Select it if you want new incoming orders to be processed automatically without requiring manual confirmation from the employee</li>
-<li>Offer to employee: Select it if you want the service to be displayed in the customer's dashboard so as to provide the employee with the ability to add it to the account</li>
-<li>Email notifications: Select this if you want to automatically send an email notification to the relevant department</li>
-<li>Orderable only with products: Select this if you want to prevent customers from ordering a service without any products attached to it</li>
+<li>Options:<ul>
+<li>Select <strong>Bill as package</strong> if you want products attached to this service to be merged together on one line of the bill (rather than listing each product on a separate line).</li>
+<li>Select <strong>Has configurable business segment</strong> if you want users to assign a segment when they create a new reservation in Quadro.</li>
+<li>Select <strong>Has expanded bill items</strong> if you want items to be listed individually on bills (instead of being grouped).</li>
+<li>Select <strong>Has overridable price</strong> if you want employees with billing privileges to be able to override the standard price of a product.</li>
+<li>Select <strong>Has overridable tax</strong> if you want employees with billing privileges to be able to override the standard tax rate of a product.</li>
+<li>Select <strong>New orders automatically processed</strong> if you want new orders to be automatically processed without requiring manual confirmation from an employee.</li>
+<li>Select <strong>Offer to employee</strong> if you want the service to be listed on the customer dashboard so that employees can add it to bills.</li>
+<li>Select <strong>Order generates email</strong> if you want orders to trigger an automatic email notification for the relevant departments.</li>
+<li>Select <strong>Order generates notification</strong> if you want orders to trigger an automatic Quadro notification for the relevant departments.</li>
+<li>Select <strong>Order requires completed notes</strong> if you want guests to be prevented from ordering a service until they've added notes (for example, if a guest wants to order your taxi service, they must first add the time and location of their arrival).</li>
+<li>Select <strong>Order requires a segment</strong> if you want to prevent products from this service from being ordered until they have a segment attached.</li>
+<li>Select <strong>Orderable only with products</strong> if you want guests to be prevented from ordering a service without attaching products (for example, if you have a service called 'Room Service', guests can't order the entire service. They must order a product from within 'Room Service', for example, 'Steak and Salad').</li>
+</ul>
+</li>
 <li>Responsible Employee: If the service is managed by a specific employee, select it from the drop-down list</li>
 <li>Responsible Department: If the service is managed by a specific department, select it from the drop-down list</li>
 <li>Accounting Category: Select an accounting category for this service</li>
