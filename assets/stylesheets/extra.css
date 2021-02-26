@@ -14,11 +14,16 @@
     padding-bottom: 56.25%;
   }
 
-  .md-typeset table:not([class]) td {
+.md-typeset table:not([class]) td {
       min-width: 250px;
   }
 
-img {
+.md-header-nav__button.md-logo img {
+      width: 100%;
+      height: 100%;
+  }
+
+.md-nav__title .md-nav__button.md-logo img {
     width: 100%;
     height: 100%;
 }
