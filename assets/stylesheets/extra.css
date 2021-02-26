@@ -17,3 +17,8 @@
   .md-typeset table:not([class]) td {
       min-width: 250px;
   }
+
+img {
+    width: 100%;
+    height: 100%;
+}
