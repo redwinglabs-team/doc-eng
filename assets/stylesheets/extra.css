@@ -39,6 +39,7 @@
   --md-accent-fg-color:              #BE3144;
   --md-accent-fg-color--transparent: #BE3144;
   --md-accent-bg-color:              #BE3144;
+  /* --md-default-bg-color:             #F4F4FD; */
 }
 
 [data-md-color-scheme="slate"] {
