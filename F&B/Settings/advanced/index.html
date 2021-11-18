@@ -553,6 +553,18 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../Quadro/Settings/fiscalPrinters/" class="md-nav__link">
+        Fiscal Printers
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../Quadro/Settings/bookingEngine/" class="md-nav__link">
         Booking engine
       </a>
@@ -1237,6 +1249,19 @@
   <a href="#finding-the-ip-address-of-a-fiscal-printer" class="md-nav__link">
     Finding the IP address of a fiscal printer
   </a>
+  
+    <nav class="md-nav" aria-label="Finding the IP address of a fiscal printer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#retrieve-the-printers-ip-address" class="md-nav__link">
+    Retrieve the printer's IP address:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -1957,6 +1982,19 @@
     Finding the IP address of a fiscal printer
   </a>
   
+    <nav class="md-nav" aria-label="Finding the IP address of a fiscal printer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#retrieve-the-printers-ip-address" class="md-nav__link">
+    Retrieve the printer's IP address:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -1978,25 +2016,25 @@
                 
                 
                 <h1 id="configuration-of-fiscal-printers">Configuration of fiscal printers</h1>
-<p>Set up printer profiles in Restaurant Manager for each physical printer in your restaurant environment (eg Receipt, fiscal, kitchen or bar printers). If you have four unique printers in your restaurant, you should have four printers configured in Restaurant Manager.</p>
-<p>Once printers are added to Restaurant Manager, they can be linked to printer models so that particular types of print jobs are sent to the correct printer model.</p>
-<p>Note that adding a physical printer to Restaurant Manager also requires some hardware settings and network configurations.</p>
+<p>Set up printer profiles in Restaurant Manager for each physical printer in your restaurant (eg Receipt, fiscal, kitchen or bar printers). If you have four active units, you should have four corresponding configurations in Restaurant Manager.</p>
+<p>Note that adding a physical printer in Fnb also requires some hardware settings and network configurations.</p>
 <h2 id="add-a-fiscal-printer">Add a fiscal printer</h2>
 <ol>
 <li>Go to Main Menu&gt; Settings&gt; Advanced</li>
 <li>Click on the + button</li>
-<li>Check the box for use fiscal printer</li>
-<li>Enter the reference IP address</li>
+<li>Check the "Enable" box</li>
+<li>Enter the IP address and the serial number of the reference printer</li>
+<li>Associate a Counter. Whenever the meter in question is used to close an account, it will send the receipt print request to the printer</li>
 <li>Click Save</li>
 </ol>
 <h3 id="finding-the-ip-address-of-a-fiscal-printer">Finding the IP address of a fiscal printer</h3>
-<p>IP address of the printer on the network.</p>
-<p>To retrieve the printer's IP address:</p>
+<h4 id="retrieve-the-printers-ip-address">Retrieve the printer's IP address:</h4>
 <ol>
 <li>Turn on the printer and connect it to the network you use for your devices.</li>
 <li>To ensure that the printer's IP address does not change, the printer must be assigned a static (reserved) IP address in the router settings.</li>
 <li>Turn off the printer.</li>
 <li>While holding down the Feed button, turn on the printer and continue pressing the Feed button for approximately 7 seconds. The IP address appears on the printed receipt.</li>
+<li>Copy the following string immediately after the found IP address: "/cgi-bin/fpmate.cgi?devid=local_printer&amp;timeout=10000"</li>
 </ol>
                 
               
