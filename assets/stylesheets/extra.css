@@ -18,10 +18,10 @@
       min-width: 250px;
   }
 
-.md-header__button.md-logo img {
-      width: 100%;
-      height: 100%;
-  }
+  .md-header__button.md-logo :-webkit-any(img,svg) {
+    width: 100%;
+    height: 100%;
+}
 
 .md-nav__title .md-nav__button.md-logo img {
     width: 100%;
