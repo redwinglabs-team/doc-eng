@@ -9,23 +9,22 @@
         <meta name="description" content="Docs of RedWing Labs App">
       
       
-      
         <meta name="author" content="RedWing Labs">
       
       
       <link rel="icon" href="../../assets/img/rwl3.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.3">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.11">
     
     
       
-        <title>Online Check-in - Documentation</title>
+        <title>Online check-in - Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.e35208c4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50e68009.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ef6f36e2.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
         
       
     
@@ -35,21 +34,18 @@
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
-    
     
     
       <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
     
       <link rel="stylesheet" href="../../assets/stylesheets/extra2.css">
     
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
-        
-<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-167197052-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){var e;this.value&&(e=document.location.pathname,ga("send","pageview",e+"?q="+this.value))}),"undefined"!=typeof location$&&location$.subscribe(function(e){ga("send","pageview",e.pathname)})})</script>
-<script async src="https://www.google-analytics.com/analytics.js"></script>
-      
+
     
     
   </head>
@@ -65,9 +61,8 @@
     <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
   
     
-    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
-      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -84,7 +79,10 @@
       
     </div>
     
-      <header class="md-header" data-md-component="header">
+    
+      
+
+<header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
       
@@ -104,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Online Check-in
+              Online check-in
             
           </span>
         </div>
@@ -115,16 +113,16 @@
         
           
           
-          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="" type="radio" name="__palette" id="__palette_1">
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
           
             <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m10-3a5 5 0 0 1 5 5 5 5 0 0 1-5 5H7a5 5 0 0 1-5-5 5 5 0 0 1 5-5h10M7 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3h10a3 3 0 0 0 3-3 3 3 0 0 0-3-3H7z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
             </label>
           
         
           
           
-          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="" type="radio" name="__palette" id="__palette_2">
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
           
             <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
@@ -137,7 +135,7 @@
       <div class="md-header__option">
         <div class="md-select">
           
-          <button class="md-header__button md-icon">
+          <button class="md-header__button md-icon" aria-label="Select language">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24z"/></svg>
           </button>
           <div class="md-select__inner">
@@ -158,19 +156,22 @@
       <label class="md-header__button md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
       </label>
-      
-<div class="md-search" data-md-component="search" role="dialog">
+      <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
       </label>
-      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-      </button>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
@@ -187,6 +188,7 @@
     
     
   </nav>
+  
 </header>
     
     <div class="md-container" data-md-component="container">
@@ -194,6 +196,7 @@
       
         
           
+            
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
@@ -233,40 +236,6 @@
         
   
   
-    
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../intro/" class="md-tabs__link md-tabs__link--active">
-        Quadro Guest
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../SA/intro/" class="md-tabs__link">
-        Quadro Staff
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
 
 
   
@@ -283,6 +252,7 @@
     </ul>
   </div>
 </nav>
+          
         
       
       <main class="md-main" data-md-component="main">
@@ -323,10 +293,44 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
       
-      <label class="md-nav__link" for="__nav_1">
-        Quadro
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../..">Quadro</a>
+          
+            <label for="__nav_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
       <nav class="md-nav" aria-label="Quadro" data-md-level="1">
         <label class="md-nav__title" for="__nav_1">
           <span class="md-nav__icon md-icon"></span>
@@ -335,18 +339,9 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
-        Quadro
-      </a>
-    </li>
-  
-
           
             
+              
   
   
   
@@ -356,10 +351,50 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_2" type="checkbox" id="__nav_1_2" >
       
-      <label class="md-nav__link" for="__nav_1_2">
-        Hotel Settings
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_2">
+          Hotel Settings
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Hotel Settings" data-md-level="2">
         <label class="md-nav__title" for="__nav_1_2">
           <span class="md-nav__icon md-icon"></span>
@@ -368,6 +403,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -378,8 +414,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -390,8 +428,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -402,8 +442,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -414,8 +456,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -426,8 +470,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -438,8 +484,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -450,8 +498,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -462,8 +512,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -474,8 +526,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -486,8 +540,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -498,8 +554,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -510,8 +568,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -522,8 +582,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -534,8 +596,24 @@
     </li>
   
 
+            
           
             
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Quadro/Settings/fiscalPrinters/" class="md-nav__link">
+        Fiscal Printers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
   
   
   
@@ -546,8 +624,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -558,14 +638,17 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -575,10 +658,26 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3" type="checkbox" id="__nav_1_3" >
       
-      <label class="md-nav__link" for="__nav_1_3">
-        Reservations
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_3">
+          Reservations
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Reservations" data-md-level="2">
         <label class="md-nav__title" for="__nav_1_3">
           <span class="md-nav__icon md-icon"></span>
@@ -587,6 +686,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -597,8 +697,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -609,8 +711,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -621,8 +725,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -633,8 +739,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -645,14 +753,17 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -662,10 +773,24 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4" type="checkbox" id="__nav_1_4" >
       
-      <label class="md-nav__link" for="__nav_1_4">
-        Profiles
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4">
+          Profiles
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Profiles" data-md-level="2">
         <label class="md-nav__title" for="__nav_1_4">
           <span class="md-nav__icon md-icon"></span>
@@ -674,6 +799,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -684,8 +810,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -696,8 +824,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -708,8 +838,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -720,14 +852,17 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -737,10 +872,24 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_5" type="checkbox" id="__nav_1_5" >
       
-      <label class="md-nav__link" for="__nav_1_5">
-        Distribution
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_5">
+          Distribution
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Distribution" data-md-level="2">
         <label class="md-nav__title" for="__nav_1_5">
           <span class="md-nav__icon md-icon"></span>
@@ -749,6 +898,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -759,8 +909,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -771,8 +923,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -783,8 +937,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -795,14 +951,17 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -813,8 +972,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -824,10 +985,24 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_7" type="checkbox" id="__nav_1_7" >
       
-      <label class="md-nav__link" for="__nav_1_7">
-        Finances
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_7">
+          Finances
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Finances" data-md-level="2">
         <label class="md-nav__title" for="__nav_1_7">
           <span class="md-nav__icon md-icon"></span>
@@ -836,6 +1011,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -846,8 +1022,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -858,8 +1036,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -870,8 +1050,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -882,14 +1064,17 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -899,10 +1084,28 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_8" type="checkbox" id="__nav_1_8" >
       
-      <label class="md-nav__link" for="__nav_1_8">
-        Report
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_8">
+          Report
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Report" data-md-level="2">
         <label class="md-nav__title" for="__nav_1_8">
           <span class="md-nav__icon md-icon"></span>
@@ -911,6 +1114,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -921,8 +1125,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -933,8 +1139,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -945,8 +1153,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -957,8 +1167,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -969,8 +1181,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -981,14 +1195,17 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -999,6 +1216,21 @@
     </li>
   
 
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Quadro/TaskManager/alert/" class="md-nav__link">
+        Alert Manager
+      </a>
+    </li>
+  
+
+            
           
         </ul>
       </nav>
@@ -1019,10 +1251,42 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
       
-      <label class="md-nav__link" for="__nav_2">
-        Quadro Fnb
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Quadro Fnb
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Quadro Fnb" data-md-level="1">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
@@ -1031,6 +1295,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -1041,8 +1306,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1052,10 +1319,40 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
       
-      <label class="md-nav__link" for="__nav_2_2">
-        Settings
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Settings
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Settings" data-md-level="2">
         <label class="md-nav__title" for="__nav_2_2">
           <span class="md-nav__icon md-icon"></span>
@@ -1064,6 +1361,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -1074,8 +1372,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1086,8 +1386,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1098,8 +1400,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1110,8 +1414,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1122,8 +1428,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1134,8 +1442,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1146,8 +1456,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1158,8 +1470,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1170,8 +1484,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1182,8 +1498,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1194,8 +1512,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1206,14 +1526,17 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1224,8 +1547,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1236,8 +1561,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1247,10 +1574,20 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
       
-      <label class="md-nav__link" for="__nav_2_5">
-        Reservations
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_5">
+          Reservations
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Reservations" data-md-level="2">
         <label class="md-nav__title" for="__nav_2_5">
           <span class="md-nav__icon md-icon"></span>
@@ -1259,6 +1596,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -1269,8 +1607,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1281,14 +1621,17 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1299,8 +1642,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1310,10 +1655,22 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_7" type="checkbox" id="__nav_2_7" >
       
-      <label class="md-nav__link" for="__nav_2_7">
-        Spaces
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_7">
+          Spaces
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Spaces" data-md-level="2">
         <label class="md-nav__title" for="__nav_2_7">
           <span class="md-nav__icon md-icon"></span>
@@ -1322,6 +1679,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -1332,8 +1690,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1344,8 +1704,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1356,14 +1718,17 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1374,8 +1739,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1385,10 +1752,18 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_9" type="checkbox" id="__nav_2_9" >
       
-      <label class="md-nav__link" for="__nav_2_9">
-        Registry
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_9">
+          Registry
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Registry" data-md-level="2">
         <label class="md-nav__title" for="__nav_2_9">
           <span class="md-nav__icon md-icon"></span>
@@ -1397,6 +1772,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -1407,14 +1783,17 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1424,10 +1803,18 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_10" type="checkbox" id="__nav_2_10" >
       
-      <label class="md-nav__link" for="__nav_2_10">
-        Kitchen
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_10">
+          Kitchen
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Kitchen" data-md-level="2">
         <label class="md-nav__title" for="__nav_2_10">
           <span class="md-nav__icon md-icon"></span>
@@ -1436,6 +1823,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -1446,14 +1834,17 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1464,8 +1855,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1476,8 +1869,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1488,167 +1883,7 @@
     </li>
   
 
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-    
-  
-  
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
-      
-      <label class="md-nav__link" for="__nav_3">
-        Quadro Guest
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Quadro Guest" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
-          <span class="md-nav__icon md-icon"></span>
-          Quadro Guest
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
             
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../intro/" class="md-nav__link">
-        Quadro Guest
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-    
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Online Check-in
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        Online Check-in
-      </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#how-does-it-work" class="md-nav__link">
-    How does it work?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#set-up-online-check-in" class="md-nav__link">
-    Set up online check-in
-  </a>
-  
-    <nav class="md-nav" aria-label="Set up online check-in">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#add-a-message-to-check-in" class="md-nav__link">
-    Add a message to check-in
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#add-house-rules" class="md-nav__link">
-    Add House Rules
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#credit-card-registration-for-multiple-charges" class="md-nav__link">
-    Credit card registration for multiple charges
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#disable-online-check-in" class="md-nav__link">
-    Disable online check-in
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../profile/" class="md-nav__link">
-        Profile
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../messages/" class="md-nav__link">
-        Messages
-      </a>
-    </li>
-  
-
           
         </ul>
       </nav>
@@ -1667,170 +1902,41 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
       
-      <label class="md-nav__link" for="__nav_4">
-        Quadro Staff
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Quadro Staff" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Quadro Pop
           <span class="md-nav__icon md-icon"></span>
-          Quadro Staff
         </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../SA/intro/" class="md-nav__link">
-        Quadro Staff
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../SA/spaces/" class="md-nav__link">
-        Spaces
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../SA/messages/" class="md-nav__link">
-        Messages
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../SA/tasks/" class="md-nav__link">
-        Task
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../SA/customers/" class="md-nav__link">
-        Customers
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../SA/pos/" class="md-nav__link">
-        Point of Sale
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../SA/complaints/" class="md-nav__link">
-        Complaints
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../SA/delivery/" class="md-nav__link">
-        Delivery
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../SA/reservations/" class="md-nav__link">
-        Reservations
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../SA/settings/" class="md-nav__link">
-        Settings
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
       
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
-      
-      <label class="md-nav__link" for="__nav_5">
-        Quadro Pop
-        <span class="md-nav__icon md-icon"></span>
-      </label>
       <nav class="md-nav" aria-label="Quadro Pop" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
+        <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
           Quadro Pop
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -1841,8 +1947,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1853,8 +1961,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1865,8 +1975,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1877,8 +1989,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1889,8 +2003,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1901,8 +2017,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1913,6 +2031,7 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
@@ -1932,6 +2051,7 @@
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
+
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
@@ -2005,8 +2125,8 @@
             <article class="md-content__inner md-typeset">
               
                 
-                
-                <h1 id="online-check-in">Online check-in</h1>
+
+<h1 id="online-check-in">Online check-in</h1>
 <p>Online check-in allows guests to complete and sign registration cards in the Guest App and upload identity documents prior to arrival, reducing manual labor for staff and saving time. Registration cards completed during online check-in are automatically saved to relevant customer profiles in Quadro.</p>
 <h2 id="how-does-it-work">How does it work?</h2>
 <p>As a rule, the "Online check-in" button is attached to the following types of email using the appropriate placeholder:</p>
@@ -2054,11 +2174,6 @@
 <li>Confirmation of reservation</li>
 <li>Before departure</li>
 </ul>
-                
-              
-              
-                
-
 
               
             </article>
@@ -2067,74 +2182,42 @@
         
           <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
           </a>
         
       </main>
       
-        
-<footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        <a href="../intro/" class="md-footer__link md-footer__link--prev" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Quadro Guest
-            </div>
-          </div>
-        </a>
-      
-      
-        <a href="../profile/" class="md-footer__link md-footer__link--next" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Profile
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
+        <footer class="md-footer">
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-          <div class="md-footer-copyright__highlight">
-            Copyright &copy; 2019 - 2020 RWL Srl
-          </div>
-        
-        Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
-        </a>
-        
-      </div>
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2019 - 2020 RWL Srl
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
       
-  <div class="md-footer-social">
+        <div class="md-social">
+  
+    
     
       
       
-        
-        
-      
-      <a href="https://github.com/redwinglabs" target="_blank" rel="noopener" title="github.com" class="md-footer-social__link">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
-      </a>
     
-  </div>
-
+    <a href="https://github.com/redwinglabs" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+    </a>
+  
+</div>
+      
     </div>
   </div>
 </footer>
@@ -2143,10 +2226,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.instant", "navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "navigation.indexes"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.092fa1f6.min.js"}</script>
     
     
-      <script src="../../assets/javascripts/bundle.4ea5477f.min.js"></script>
+      <script src="../../assets/javascripts/bundle.5a9542cf.min.js"></script>
       
         <script src="../../assets/javascripts/extra.js"></script>
       

@@ -31,10 +31,10 @@ theme:
     language: en
   favicon: assets/img/rwl3.png
   features:
-    - navigation.top
     - navigation.instant
     - navigation.tabs
-    # - toc.integrate
+    - navigation.top
+    - navigation.indexes
 
 # Extras
 extra:
@@ -64,9 +64,9 @@ extra_javascript:
   - assets/javascripts/extra.js
 
 # Google Analytics
-google_analytics:
-  - UA-167197052-1
-  - auto
+# google_analytics:
+#   - UA-167197052-1
+#   - auto
 
 # Extensions
 markdown_extensions:
@@ -104,6 +104,7 @@ nav:
           - Outlets: "Quadro/Settings/outlets.md"
           - Placeholder Emails: "Quadro/Settings/placeholders.md"
           - Accounting: "Quadro/Settings/accounting.md"
+          - Fiscal Printers: 'Quadro/Settings/fiscalPrinters.md'
           - Booking engine: "Quadro/Settings/bookingEngine.md"
           - Registration Card: "Quadro/Settings/registrationCard.md"
       - Reservations:
@@ -136,6 +137,7 @@ nav:
           - Spent Nights: "Quadro/Report/spentNight.md"
           - Payment: "Quadro/Report/payment.md"
       - Task Manager: "Quadro/TaskManager/task.md"
+      - Alert Manager: "Quadro/TaskManager/alert.md"
   - Quadro Fnb: 
     - Quadro Fnb: 'F&B/intro.md'
     - Settings:
@@ -144,9 +146,9 @@ nav:
       - Spaces: 'F&B/Settings/room.md'
       - Services: 'F&B/Settings/service.md'
       - Segments: 'F&B/Settings/segment.md'
-      - Delivery: 'F&B/Settings/moh!Delivery.md'
-      - Takeaway: 'F&B/Settings/moh!TakeAway.md'
-      - App Services: 'F&B/Settings/moh!Services.md'
+      # - Delivery: 'F&B/Settings/moh!Delivery.md'
+      # - Takeaway: 'F&B/Settings/moh!TakeAway.md'
+      # - App Services: 'F&B/Settings/moh!Services.md'
       - Advanced: 'F&B/Settings/advanced.md'
       - Employees: 'F&B/Settings/employee.md'
       - Outlets: 'F&B/Settings/outlets.md'
@@ -174,24 +176,24 @@ nav:
     - Kitchen:
       - Kitchen: 'Kitchen/orderSummary.md'
     - Inventory: 'F&B/Inventory/inventory.md'
-    - App Orders: 'F&B/MOH!Orders/orders.md'
-    - App Services: 'F&B/MOH!Bookings/bookings.md'
-  - Quadro Guest:
-    - Quadro Guest: 'GA/intro.md'
-    - Online Check-in: 'GA/checkIn.md'
-    - Profile: 'GA/profile.md'
-    - Messages: 'GA/messages.md'
-  - Quadro Staff:
-    - Quadro Staff: 'SA/intro.md'
-    - Spaces: 'SA/spaces.md'
-    - Messages: 'SA/messages.md'
-    - Task: 'SA/tasks.md'
-    - Customers: 'SA/customers.md'
-    - Point of Sale: 'SA/pos.md'
-    - Complaints: 'SA/complaints.md'
-    - Delivery: 'SA/delivery.md'
-    - Reservations: 'SA/reservations.md'
-    - Settings: 'SA/settings.md'
+    # - App Orders: 'F&B/MOH!Orders/orders.md'
+    # - App Services: 'F&B/MOH!Bookings/bookings.md'
+  # - Quadro Guest:
+  #   - Quadro Guest: 'GA/intro.md'
+  #   - Online Check-in: 'GA/checkIn.md'
+  #   - Profile: 'GA/profile.md'
+  #   - Messages: 'GA/messages.md'
+  # - Quadro Staff:
+  #   - Quadro Staff: 'SA/intro.md'
+  #   - Spaces: 'SA/spaces.md'
+  #   - Messages: 'SA/messages.md'
+  #   - Task: 'SA/tasks.md'
+  #   - Customers: 'SA/customers.md'
+  #   - Point of Sale: 'SA/pos.md'
+  #   - Complaints: 'SA/complaints.md'
+  #   - Delivery: 'SA/delivery.md'
+  #   - Reservations: 'SA/reservations.md'
+  #   - Settings: 'SA/settings.md'
   - Quadro Pop:
     - Quadro Pop: 'Pop/intro.md'
     - Cashiers: 'Pop/cash.md'
